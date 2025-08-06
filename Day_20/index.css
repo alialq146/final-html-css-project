@@ -1,0 +1,177 @@
+/* إعدادات عامة */
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* رأس الصفحة */
+.headrPage {
+  background: linear-gradient(to left, #091b85, #091b85);
+  height: 130px;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  padding-top: 8px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* شريط التنقل */
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #ffffff;
+  width: 11%;
+  text-align: center;
+  border-radius: 25px;
+  height: 47px;
+  border: none;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #e0f2ff;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+a {
+  text-decoration: none;
+  color: #3f51b5;
+  display: block;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+/* المقدمة */
+.intro-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin: 20px;
+}
+
+.intro-image {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* الفيديو */
+.video {
+  padding: 20px;
+  text-align: center;
+}
+
+/* المقالات */
+.articles {
+  padding: 0 20px;
+}
+
+.articles h2 {
+  color: #2c3e50;
+}
+
+article {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+  transition: 0.3s;
+}
+
+article:hover {
+  transform: scale(1.02);
+}
+
+article h3 {
+  color: #3f51b5;
+  margin-top: 0;
+}
+
+/* نموذج التواصل */
+.contact-form {
+  padding: 0 20px 30px 20px;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2196f3;
+  outline: none;
+  background-color: #fff;
+}
+
+button[type="submit"] {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #1976d2;
+  cursor: pointer;
+}
+
+/* التذييل */
+footer {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  color: #555;
+}
